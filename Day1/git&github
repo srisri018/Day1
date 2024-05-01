@@ -1,0 +1,6 @@
+Open terminal
+git init
+git add . (OR) git add filename
+git commit -m "message to give"
+ if in case of modifications OR changes in code again do git commit -m
+ 
