@@ -1,0 +1,31 @@
+(ctrl+!     (OR)   html:5 )   ------>   Structure of html
+(<!--Comment-->)              ------>   Comment
+(h1 to h6)                    ------>   are used for headings these are "6" headings-->
+                                        this headings are the size difference h1 is large size, h2 is small size-->
+<p> Paragraph </p>            ------>   Paragraph
+<b> Bold </b>                 ------>   Bold the Text
+<strong></strong>             ------>   Strong tag use Bold the text (browser will understand the bold text was strong )
+<i>itallic</i>                ------>   Itallic Text 
+<em>itallic</em>              ------>   Itallic text
+<u>Underline</u>              ------>   underline the text
+<del></del>                   ------>   underline in middle of the text
+<strike></strike>             ------>   underline in middle of the text
+<ins> insert </ins>           ------>   insert the line (after del function using immediatly the ins function worked or used),by defalt underline
+<sub> subscription </sub>     ------>   subscript of Text
+<sup> superscript </sup>      ------>   superscript of Text
+<pre> pre formating tag </pre>------>   pre formating tag (insertion order (raw print)) 
+<code>like Paragraph</code>   ------>   Like Paragraph
+<marquee> scroll </marquee>   ------>   scrolling the data
+
+<br></br>                     ------>   Break the Line
+<hr></hr>                     ------>   Horizantal Line
+<a href=""></a>               ------>   Anchortag
+    <a href="https://www.google.com" target="_blank">Google</a>   
+    1)  (target="_blank) is the open New tab
+    2)  google is the link (click on link will be open a website)
+
+( <img src="" alt=""> )        -----> immage (src="" source code , alt="" alternative if the immage not worked the alt is worked) adjust the height & width
+ 
+
+
+    
