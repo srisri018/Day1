@@ -26,6 +26,48 @@
 
 ( <img src="" alt=""> )        -----> immage (src="" source code , alt="" alternative if the immage not worked the alt is worked) adjust the height & width
  
-
-
+ ***********************************************************************************************************
+               Lists :
+               in Lists , the Order is important in some Lists
+                          The Order was not important in some Lists
+                <ol> Order List </ol>  -------> Orderlist (inside Order list <li> list </li> is required )
+  * EXAMPLES:
+  <h3>contact list</h3>
+     <ol type="" start="">    #(type is  the : 1,I,a,A (sno)), start is the reqired number to start(ex: 100,101...etc)
+       <li>alexa</li>   -------- 1. alexa
+       <li>batul</li>   -------- 2. batul
+       <li>chandra</li> -------- 3. chandra
+       </ol>             
+***********************************************************************************************************
+<!-- Un Orderlist -->
+<ul>Un Orderlist</ul>   -------> Orderlist (inside Order list <li> list </li> is required )
+  * EXAMPLES:
+  <h3>contact list</h3>
+      <ul>              #(in ul list default bullet points) 
+       <li>alexa</li>   -------- 1. alexa
+       <li>batul</li>   -------- 2. batul
+       <li>chandra</li> -------- 3. chandra
+       </ul>             
+***********************************************************************************************************
+<!-- Description List --> 
+    If u want to mention life events
+    <h3> Life Events: </h3>
+      <dl>
+        <dt> description term </dt>
+        <dd> Description Data </dd>
     
+========================================
+Emojies : windows+dot   (.)
+========================================
+
+ Mail:     <a href="mailto:abc@gmail.com">abc@gmail.com</a>
+ Mobil.no: <a href="tel :123456">123456</a>
+
+
+===========================================
+
+    TABLE
+    <table bordre="1">
+   <!--tr is the table Row inside <table> tag-->
+   <!--tb is the table Data inside <tr> tag-->
+<th>sno</th>  <!--th is the bold text  directly( it can be use <b></b> and strong tag)-->
