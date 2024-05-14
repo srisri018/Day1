@@ -1,0 +1,63 @@
+
+/* psudo elements And psudo classes */
+*
+{
+box-sizing: border-box;
+}
+/* hover */
+ a:link  /*anchor tag syntax a:link  */
+{
+    background-color: brown;
+}
+a:active   /* active is the when ever clik the link the background colour will be displayed (only in anchor tag ) */
+{ 
+    background-color: black;color: greenyellow; /*(colour is the text colour)*/
+}
+a:visited  /* viseted is already visited the site the colour will be change (1st blue colour (link) after visiting the site the colour change )*/
+{
+    color: green;
+}
+input:hover{
+    background-color: blue;
+}
+input:focus /* focus is the click the object the colour will be changed*/
+{
+    background-color: red;
+}
+input:required{     /* required is the (in input required given only required colour will shown [note:(input:read-only) Or( input:disabled)] */
+    background-color: yellow;
+}
+input:optional{   /* optional is the opposite to required (remaining inputs colours shown [note:(input:read-write) Or( input:Enabled)]*/
+    background-color: aqua;
+}
+
+.main
+{
+    height: 300px;
+    width: 100px;
+    border: 2px solid black;
+}
+.box
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
+p:first-child
+{
+    color: red;
+}
+p:last-child
+{
+    color: blue;
+}
+div:nth-last-child(4)
+{
+    background-color: rgb(110, 138, 138);
+}
+p::first-letter{
+color: rgb(240, 9, 9);
+}
+p::first-line{
+    background-color: blue;color: aliceblue;
+}

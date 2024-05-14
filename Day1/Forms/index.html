@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    <!--These are the forms are the (Reg Form,Login Form, Contact form, Survey Form,Application Form, Feedback Form, Search, subscribe etc)-->
+    <form action="main.py"><input type="text" name="x" placeholder="Enter your Name"> <!--place holder is understandable details to user
+        (Note: form action ="" will be work in subbmit buttion action Movement)-->
+ 
+       <button type="submit">
+        submit
+    </button><br><br>
+    <input type="text" name="x" value="Sai" id="sname"><!--("value" is the users does not enter any data ,the data will be fixed like (india,states default data))-->
+ <button>Click</button>
+ <br><br>
+ <label for="uname">User Name :</label> <!--the Lable tag connected with id (uname), in this id will works to click the user name connected to the input box-->
+<input type="text" name="x" id="uname">
+</label> <!--the Lable tag connected with id (uname), in this id will works to click the user name connected to the input box 
+Note: the (Lable for="uname") and (id="uname") will be same it is worked-->
+<button>submit</button>
+
+<br><br>
+<div>
+    <label for="em">Email :</label>
+    <input type="email" name="em" id="em">
+    <button>Submit</button>
+    <br><br>
+    <label for="hm">password :</label>
+    <input type="password" name="hm" placeholder="Enter your Password" id="hm">
+    <button>Submit</button>
+    <br><br>
+<input type="number" name="em" id="em" placeholder="Enter Age">
+<button>Click</button><br><br>
+
+<input type="date" name="Dob" id="Dob">
+<button>Click</button>
+<br>
+<br>
+<input type="datetime-local" name="time" id="time">
+<button>Click</button>
+<br><br>
+
+<textarea name="" id="">feedback</textarea><!--text area will be used for address,feedbacks...etc,--> 
+
+
+
+
+
+
+
+
+<h1>Simple Registration Form</h1>
+<div>
+    <form action="main.py" method="post"><!--method="post is sensitive data do not show in url like (passwords ,otps..etc,)"-->
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name" >
+        <button>Submit</button>
+        <br><br>
+
+        <label for="tm">Email :</label>
+        <input type="email" name="em" id="tm" placeholder="Enter your Email" >
+        <button>Submit</button>
+        <br><br>
+        <label for="cm">Password :</label>
+        <input type="password" name="cm" id="cm" placeholder="Enter your Password" >
+        <button>Submit</button>
+        <br><br>
+        <label for="Age">Age:</label>
+        <input type="Age" name="name" id="Age" placeholder="Enter your Age" >
+        <button>Submit</button>
+     </form>
+</div>
+<br><br>
+<div>
+    <p>Launguages Known :</p>
+    <!--Radio,check boxes,dropdowns ...etc-->
+    <input type="checkbox" name="lang" id="java">
+    <label for="java">Java</label>
+
+        
+    <input type="checkbox" name="lang" id="Pyt">
+    <label for="Pyt">Python</label>
+
+        
+
+    <input type="checkbox" name="lang" id="Html">
+    <label for="Html">Html</label><!-- In this check boxes are multiple selections -->
+
+    <p>Select Gender :</p>
+    <input type="radio" name="fe" id="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="fe" id="fe">
+    <label for="fe">Female</label><!-- In this radio Button are single or unique selection (the name is same value should be enter(like (fe)) -->
+    <br><br>
+
+    
+  <select name="Coarse" id="Coarse"> <!--single selector-->
+    <option value="j">java</option>
+        <option value="p">python</option>
+        <option value="h">html</option>
+        <option value="c">css</option>
+        <option value="b">bootstrp</option>
+    </select>
+    <br><br>
+
+
+    <select name="Coarse" id="Coarse" size="3" multiple> <!--multiple selector-->
+        <option value="j">java</option>
+            <option value="p">python</option>
+            <option value="h">html</option>
+            <option value="c">css</option>
+            <option value="b">bootstrp</option>
+        </select><br><br>
+
+
+        <select name="Coarse" id="Coarse"> <!--optgroup select group of values-->
+            <optgroup label="IT"><option value="j">java</option>
+                <option value="p">python</option>
+                <option value="h">html</option>
+            </optgroup>
+            <optgroup label="EEE"><option value="c">css</option>
+                <option value="b">bootstrp</option>
+            </optgroup>
+                <optgroup label="CIVIL"><option value="m">materials</option>
+                    <option value="c">cm</option>
+                </optgroup>
+                 </select><br><br>
+
+<fieldset> <!--Fieldset is the grouping of elements-->
+    <legend>My form</legend> <!-- inside the fieldset (tag name(Title))-->
+    
+<h1>Simple Registration Form</h1>
+<div>
+    <form action="main.py" method="post"><!--method="post is sensitive data do not show in url like (passwords ,otps..etc,)"-->
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name" >
+        <button>Submit</button>
+        <br><br>
+
+        <label for="tm">Email :</label>
+        <input type="email" name="em" id="tm" placeholder="Enter your Email" >
+        <button>Submit</button>
+        <br><br>
+        <label for="cm">Password :</label>
+        <input type="password" name="cm" id="cm" placeholder="Enter your Password" >
+        <button>Submit</button>
+        <br><br>
+        <label for="Age">Age:</label>
+        <input type="Age" name="name" id="Age" placeholder="Enter your Age" >
+        <button>Submit</button>
+     </form>
+</div>
+
+</fieldset>
+
+
+
+
+
+
+
+
+            
+    
+    </select>
+
+
+        
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

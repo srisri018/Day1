@@ -1,0 +1,8 @@
+CSS (Cascading Style sheets) started in 1994 
+current version of css CSS3
+CSS is used to style or design the webpage
+
+how to do?
+There are 3 ways styling applies to HTML.
+   1. Inline styling
+     you will apply styles in perticular element ,inside elements

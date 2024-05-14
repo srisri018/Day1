@@ -1,0 +1,54 @@
+
+/* (*{} universal selector)      */
+body{
+background-color: aquamarine;
+}
+.box{
+    background-color: rgb(221, 117, 21);
+    height: 70vh;
+    width: 35vw;
+    padding-top: 2px;
+    padding-top: 2px;
+    border: 5px solid black;
+
+}
+.light{
+    background-color: rgb(247, 253, 253);
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 20px; 
+    padding: 10px;
+    border-radius: 50%;
+
+}
+/* More Selectors  */
+/*  1) pseudo elements -starts with : */
+
+.red:hover{
+    background-color: red; /*pseudo elements (.light:hover),when the colour changes, the mouse corsor move on the box the colour will be displayed */
+}
+
+.green:hover{
+    background-color: green;
+}
+.orange:hover{
+    background-color: orange;
+}
+.poll{
+    background-color: black;
+    height:50vh;
+    width:25px ;
+margin-left: 75px;
+margin: top 30vh;
+
+}
+.bm{
+    background-color: black;
+    height: 5vh;
+    width: 150px;
+    margin-left: 13px;
+}
+.all{
+     margin-left: 150px;
+}

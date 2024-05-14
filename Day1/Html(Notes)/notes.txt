@@ -8,8 +8,8 @@
 <i>itallic</i>                ------>   Itallic Text 
 <em>itallic</em>              ------>   Itallic text
 <u>Underline</u>              ------>   underline the text
-<del></del>                   ------>   underline in middle of the text
 <strike></strike>             ------>   underline in middle of the text
+<del></del>                   ------>   underline in middle of the text
 <ins> insert </ins>           ------>   insert the line (after del function using immediatly the ins function worked or used),by defalt underline
 <sub> subscription </sub>     ------>   subscript of Text
 <sup> superscript </sup>      ------>   superscript of Text
@@ -22,9 +22,9 @@
 <a href=""></a>               ------>   Anchortag
     <a href="https://www.google.com" target="_blank">Google</a>   
     1)  (target="_blank) is the open New tab
-    2)  google is the link (click on link will be open a website)
+    2) herf="" is google is the link (click on link will be open a website)
 
-( <img src="" alt=""> )        -----> immage (src="" source code , alt="" alternative if the immage not worked the alt is worked) adjust the height & width
+( <img src="" alt=""> )       -----> immage (src="" source code , alt="" alternative if the immage not worked the alt is worked) adjust the height & width
  
  ***********************************************************************************************************
                Lists :
@@ -38,15 +38,15 @@
        <li>batul</li>   -------- 2. batul
        <li>chandra</li> -------- 3. chandra
        </ol>             
-***********************************************************************************************************
+******************************* ****************************************************************************
 <!-- Un Orderlist -->
 <ul>Un Orderlist</ul>   -------> Orderlist (inside Order list <li> list </li> is required )
   * EXAMPLES:
   <h3>contact list</h3>
       <ul>              #(in ul list default bullet points) 
-       <li>alexa</li>   -------- 1. alexa
-       <li>batul</li>   -------- 2. batul
-       <li>chandra</li> -------- 3. chandra
+       <li>alexa</li>   -------- . alexa
+       <li>batul</li>   -------- . batul
+       <li>chandra</li> -------- . chandra
        </ul>             
 ***********************************************************************************************************
 <!-- Description List --> 
@@ -64,10 +64,15 @@ Emojies : windows+dot   (.)
  Mobil.no: <a href="tel :123456">123456</a>
 
 
-===========================================
-
-    TABLE
-    <table bordre="1">
+==============
+ TABLE
+==============
+    <table border="1">
    <!--tr is the table Row inside <table> tag-->
    <!--tb is the table Data inside <tr> tag-->
-<th>sno</th>  <!--th is the bold text  directly( it can be use <b></b> and strong tag)-->
+<th>sno</th>  <!--th is the bold text  directly,( it can be use <b></b> and strong tag)-
+
+
+==============
+FORMS: 
+==============

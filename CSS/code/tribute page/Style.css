@@ -1,0 +1,16 @@
+button{
+    background-color: rgba(110, 218, 182, 0.952);
+}
+.bn{
+    background-color: white; color: black;
+}
+.bt{
+    background-color: black; color: white;
+}
+body
+{
+    background-color: rgba(196, 141, 228, 0.925);
+   /* background: linear-gradient( rgb(201, 110, 110),rgb(108, 108, 189)) }
+
+   background: radial-gradient(rgb(216, 157, 157),rgb(110, 110, 226));
+height: 100vh;*/

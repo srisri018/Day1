@@ -1,0 +1,22 @@
+
+h2{
+    background-color: rgb(177, 177, 230); color: rgb(235, 58, 4);
+   /* border-width: 5px;
+    border-style:solid;
+    border-color: black;   ------> multi line boder styling */
+  border:5px solid black;   /*  single line styling */
+  border-radius: 30px;        /*  border radious is the border curves (fillet curves applied) */
+  padding-left: 20px;      /*  Padding is the inside of border adjustment */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;    /*------> multi line padding inside the border  covers(margins) */ 
+  padding: 20px;   /*------>only padding 20px  all sides apply inside the border  covers(margins) */ 
+  padding: 20px 50px 100px;  /*  20px is the (Top),50px is the(Left,Right),100px is the(Bottom) */
+
+  margin-top: 100px;  /*  Margin is the outside of border adjustment (margins) */
+
+
+
+
+
+}

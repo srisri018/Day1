@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+   <fieldset>
+    <legend>Form Validation</legend>
+    <h1>Sample Form Validation</h1>
+    <div><form action="main.py">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" required><!--required is the fill the data is required ,if no data enter the input box will show the notification message-->
+        </div>
+        <br>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" pattern="[A-Za-z0-9]+@[A-Za-z]+\.[a-z]{3}$">
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password :</label>
+            <input type="password" name="pass" id="pass" minlength="6" maxlength="12" pattern="*[A-Z]*[a-z]*d$"> <!--(minlength & maxlength )is minimum length of values or numbers should be enter-->
+        </div>
+        <br>
+        <div>
+            <label for="Age">Age : </label>
+            <input type="number" name="age" id="Age" disabled> <!--disabled is hide the data-->
+        </div>
+   </fieldset>
+        <input type="hidden" name="batch" value="25">
+        <br>
+         <button>Submit</button>
+
+
+
+
+
+
+        
+    </form>
+
+</div>
+    
+</body>
+</html>
